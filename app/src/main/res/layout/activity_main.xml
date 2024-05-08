@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#C6DAB0"
+        tools:context=".MainActivity">
+
+
+        <EditText
+            android:id="@+id/editTextText3"
+            android:layout_width="191dp"
+            android:layout_height="64dp"
+            android:layout_marginStart="92dp"
+            android:layout_marginTop="29dp"
+            android:layout_marginEnd="94dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Caperucita Roja"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.506"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="246dp"
+            android:layout_height="180dp"
+            android:layout_marginStart="83dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginEnd="86dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextText3"
+            app:srcCompat="@drawable/poet2" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="389dp"
+            android:layout_height="536dp"
+            android:layout_marginStart="42dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="32dp"
+            android:text="Había una vez, en medio de un espeso bosque, una casita donde vivía una pequeña y bonita niña llamada Caperucita Roja. Un día soleado, su madre la llamó a la cocina de su pequeña casa.'La Abuela está enferma', dijo ella.'Llévale esta canasta de pasteles, ¡pero sé muy cuidadosa! ¡Mantente en el camino a través del bosque y no pares! Si caminas rápidamente, ningún daño vendrá hacia ti.''No te preocupes', dijo ella. 'Yo correré donde la Abuela sin parar.'' Caperucita Roja besó a su madre y se fue. La pequeña niña comenzó su largo viaje a través del bosque...Pero ella pronto olvidó las sabias palabras de su madre.
+
+Ella vio una parcela de fresas bajo un árbol. '¡Qué hermosas fresas!', exclamó ella, colocando su canasta en el piso. 'Lucen tan agradables y maduras... ¡y tan grandes! ¡Delicioso! Sólo comeré una más..."
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="121dp"
+            android:layout_height="59dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginEnd="24dp"
+            android:text="Read"
+            app:layout_constraintEnd_toStartOf="@+id/stopbutton"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/seekBar" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="387dp"
+            android:layout_height="641dp"
+            android:layout_marginStart="42dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="32dp"
+            android:text="Deja que te cuente una historia sobre un pollito. Su nombre es Pollito Tito. Él vive en un gallinero pequeño y normal en un barrio pequeño y normal.Pollito Tito no es alto ni bajo. No es gordo ni flaco. No es inteligente ni tonto. Es un pollito completamente normal.Una mañana completamente normal, Pollito Tito está desayunando en la cocina. Le gustan las tostadas con mantequilla y el café con crema.Está leyendo las noticias. Ve un artículo aterrador con un título aterrador. Dice: ¡EL CIELO SE ESTÁ CAYENDO!Pollito Tito está tan asustado que se le cae la tostada dentro del café. ¡Plop!
+“¡El cielo se está cayendo! ¡EL CIELO SE ESTÁ CAYENDO!”, grita Pollito Tito. “¡Tengo que advertirle a todos!”Primero, envía por mail el artículo a mil de sus amigos cercanos. Luego corre por la calle para avisarle a todos los demás.La primera persona que se encuentra en la calle es la Gallina Martina. Ella está volviendo del supermercado.“¡Buenos días, Pollito Tito!
+"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+        <EditText
+            android:id="@+id/editTextText2"
+            android:layout_width="143dp"
+            android:layout_height="67dp"
+            android:layout_marginStart="117dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="122dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Pollito Tito"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="249dp"
+            android:layout_height="233dp"
+            android:layout_marginStart="63dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="67dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextText2"
+            app:srcCompat="@drawable/poet3" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="108dp"
+            android:layout_height="57dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="24dp"
+            android:text="Read"
+            app:layout_constraintEnd_toStartOf="@+id/stopbutton2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/seekBar2" />
+
+        <EditText
+            android:id="@+id/editTextText"
+            android:layout_width="237dp"
+            android:layout_height="76dp"
+            android:layout_marginStart="122dp"
+            android:layout_marginTop="33dp"
+            android:layout_marginEnd="118dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Los tres cerditos"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="269dp"
+            android:layout_height="256dp"
+            android:layout_marginStart="156dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="159dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextText"
+            app:srcCompat="@drawable/poet1" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="375dp"
+            android:layout_height="584dp"
+            android:layout_marginStart="42dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="32dp"
+            android:text="Érase una vez que había una mamá cerda que tenía tres cerditos. Ella los amaba mucho, pero no había suficiente comida para alimentarlos, así que los cerditos tuvieron que ir a buscar su suerte.El primer cerdito decidió ir al sur. Encontró a un granjero en el camino que estaba llevando un atado de paja. El cerdito preguntó respetuosamente: '¿Podría por favor darme esa paja, para que yo pueda construir una casa?'Como el cerdito dijo 'por favor'', el granjero le dio la paja y el cerdito construyó una bella casa. La casa tenía paredes hechas de paja, un piso hecho de paja, y adentro... una cómoda cama hecha de paja.Después de construir la casa, el cerdito decidió tomar una siesta en su cama hecha de paja. De pronto, el gran lobo malo llegó y olió al cerdito dentro de la casa, y su boca comenzó a hacerse agua.'¡Mmmmm... emparedados de tocino!'"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="108dp"
+            android:layout_height="57dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="52dp"
+            android:text="Read"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/stopbutton3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/seekBar3" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="551dp"
+            android:layout_height="180dp"
+            android:background="@drawable/background"
+            android:text="TextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.427"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="289dp"
+            android:layout_height="43dp"
+            android:text="SPANISH  STORIES FOR KIDS"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/textView"
+            app:layout_constraintEnd_toEndOf="@+id/textView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView" />
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="246dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="165dp"
+            android:layout_marginTop="39dp"
+            android:layout_marginEnd="205dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        <Button
+            android:id="@+id/stopbutton"
+            android:layout_width="108dp"
+            android:layout_height="57dp"
+            android:layout_marginStart="63dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="76dp"
+            android:text="Stop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button3"
+            app:layout_constraintTop_toBottomOf="@+id/seekBar" />
+
+        <Button
+            android:id="@+id/stopbutton2"
+            android:layout_width="108dp"
+            android:layout_height="57dp"
+            android:layout_marginStart="63dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="76dp"
+            android:text="Stop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button2"
+            app:layout_constraintTop_toBottomOf="@+id/seekBar2" />
+
+        <SeekBar
+            android:id="@+id/seekBar2"
+            android:layout_width="246dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="101dp"
+            android:layout_marginTop="29dp"
+            android:layout_marginEnd="96dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <SeekBar
+            android:id="@+id/seekBar3"
+            android:layout_width="246dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="101dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="96dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView1" />
+
+        <Button
+            android:id="@+id/stopbutton3"
+            android:layout_width="108dp"
+            android:layout_height="57dp"
+            android:layout_marginStart="63dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="76dp"
+            android:layout_marginBottom="47dp"
+            android:text="Stop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button1"
+            app:layout_constraintTop_toBottomOf="@+id/seekBar3" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
